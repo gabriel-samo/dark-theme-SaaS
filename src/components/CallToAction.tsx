@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const CallToAction = () => {
   return (
-    <div className="bg-black text-white py-[72px] text-center">
+    <div className="bg-black text-white py-[72px] text-center overflow-x-clip">
       <div className="container max-w-xl relative">
         <Image
           src={helixImage}
@@ -27,7 +27,7 @@ export const CallToAction = () => {
           <input
             type="email"
             placeholder="your@email.com"
-            className="h-12 bg-white/20 rounded-lg px-5 font-medium placeholder:text-[#9CA3AF] flex-1"
+            className="min-h-12 bg-white/20 rounded-lg px-5 font-medium placeholder:text-[#9CA3AF] flex-1"
           />
           <button
             type="submit"
