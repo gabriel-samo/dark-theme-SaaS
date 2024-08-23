@@ -1,12 +1,12 @@
 "use client";
 
 import Image from "next/image";
-import apexLogo from "../assets/images/apex.png";
-import acmeLogo from "../assets/images/acme.png";
-import pulseLogo from "../assets/images/pulse.png";
-import echoLogo from "../assets/images/echo.png";
-import quantumLogo from "../assets/images/quantum.png";
-import celestialLogo from "../assets/images/celestial.png";
+import apexLogo from "@/assets/images/apex.png";
+import acmeLogo from "@/assets/images/acme.png";
+import pulseLogo from "@/assets/images/pulse.png";
+import echoLogo from "@/assets/images/echo.png";
+import quantumLogo from "@/assets/images/quantum.png";
+import celestialLogo from "@/assets/images/celestial.png";
 
 const images = [
   { src: acmeLogo, alt: "Acme Logo" },
@@ -19,7 +19,7 @@ const images = [
 
 export const LogoTicker = () => {
   return (
-    <div className="bg-black text-white py-[72px] sm:py-24 ">
+    <div className="bg-black text-white py-[72px] sm:py-24">
       <div className="container">
         <h2 className="text-xl text-center text-white/70 ">
           Trusted by the most innovative teams
